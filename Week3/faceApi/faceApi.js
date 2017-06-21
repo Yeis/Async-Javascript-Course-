@@ -7,6 +7,8 @@ var textInput = document.getElementById('textInput');
 analyzeButton.addEventListener('click',function(){
     document.getElementById('sourceImage').src = textInput.value;
 
+
+
     var requestBody = {
         url:document.getElementById('textInput').value 
     } ;
